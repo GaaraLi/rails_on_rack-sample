@@ -15,4 +15,4 @@ class ServerTest < ::Rack::Server
   end
 end
 
-ServerTest.new.start
+# ServerTest.new.start

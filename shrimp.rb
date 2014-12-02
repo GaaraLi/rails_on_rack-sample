@@ -1,8 +1,10 @@
+require 'pry'
 class Shrimp
   SHRIMP_STRING = "it was supposed to be a walking shrimp..."
 
   def initialize(app)
-   @app = app 
+    p 'in shrimp initialize'
+    @app = app 
   end 
 
   def call(env)
